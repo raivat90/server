@@ -26,6 +26,7 @@ mongoose
 const dataSchema = new mongoose.Schema({
   name: String,
   mobileNumber: String,
+  address:String,
 });
 
 const DataModel = mongoose.model("Data", dataSchema);
